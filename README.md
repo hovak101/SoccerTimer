@@ -1,6 +1,6 @@
 # Overview
 
-This repo contains the software for a timer that is used for dribbling excercises in soccer. The idea is simple: you place the ball in front of the device, turn the device on, and when it detects the ball has been moved from its place, it starts a timer. The timer stops when the ball is detected once again. The device be programmed to wait until the nth detection before turning off the timer. This is useful if, say, the user wants to time how long it takes for them to run to the end of the field and back 10 times. When n is set to 10, it won't stop the timer until it detects the ball in front of it for the 10th time. 
+This repo contains the software for a timer that is used for dribbling excercises in soccer. The idea is simple: you place the ball in front of the device, turn the device on, and when it detects the ball has been moved from its place, it starts a timer. The timer stops when the ball is detected once again. The device can be programmed to wait until the nth detection before turning off the timer. This is useful if, say, the user wants to time how long it takes for them to run to the end of the field and back 10 times. When n is set to 10, it won't stop the timer until it detects the ball in front of it for the 10th time. 
 
 Parts: Arduino Uno R3, ultransonic sensor, several 7-seg displays and a couple of buttons. 
 
